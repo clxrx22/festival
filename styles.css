@@ -40,7 +40,7 @@ h2 {
   color: white;
   font-family: "Outfit", sans-serif;
   font-weight: 900;
-  font-size: 122px;
+  font-size: 118px;
   margin: 0;
 }
 
@@ -66,6 +66,7 @@ h5 {
   font-weight: 500;
   margin: 5px 10px 5px 10px;
   text-transform: uppercase;
+  font-size: 18px;
 }
 
 p {
@@ -384,153 +385,192 @@ footer .eltfooter .sponsorfooter img {
   flex-direction: column;
 }
 .ticket .titre_ticket .texte_ticket {
+  padding-top: 130px;
   text-align: left;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.contenuticket {
+.eltticket {
   background-image: url(images/festival.png);
   background-size: 100%;
   margin-top: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
-.contenuticket .day1_ticket {
+.eltticket .contenuticket {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.eltticket .contenuticket .day1_ticket {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+  margin-left: 50px;
   display: flex;
   flex-direction: row;
-  padding: 10px 200px;
+  padding: 10px 100px;
   border-radius: 99px;
   background-color: #FC8E16;
 }
-.contenuticket .day1_ticket a {
+.eltticket .contenuticket .day1_ticket a {
   text-decoration: none;
 }
-.contenuticket .day1_ticket a .groupe_planning {
+.eltticket .contenuticket .day1_ticket a .groupe_planning {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.contenuticket .day1_ticket a .groupe_planning h3 {
+.eltticket .contenuticket .day1_ticket a .groupe_planning h3 {
   font-weight: 900;
   font-size: 40px;
 }
-.contenuticket .day1_ticket a .groupe_planning p {
+.eltticket .contenuticket .day1_ticket a .groupe_planning p {
   font-weight: 300;
   font-size: 16px;
   margin: 0;
 }
-.contenuticket .day2_ticket {
-  margin-top: 30px;
-  margin-bottom: 30px;
+.eltticket .contenuticket .day2_ticket {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 50px;
   display: flex;
   flex-direction: row;
-  padding: 10px 200px;
+  padding: 10px 95px;
   border-radius: 99px;
-  background-color: #FC8E16;
+  background-color: #F94C1E;
 }
-.contenuticket .day2_ticket a {
+.eltticket .contenuticket .day2_ticket a {
   text-decoration: none;
 }
-.contenuticket .day2_ticket a .groupe_planning {
+.eltticket .contenuticket .day2_ticket a .groupe_planning {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.contenuticket .day2_ticket a .groupe_planning h3 {
+.eltticket .contenuticket .day2_ticket a .groupe_planning h3 {
   font-weight: 900;
   font-size: 40px;
 }
-.contenuticket .day2_ticket a .groupe_planning p {
+.eltticket .contenuticket .day2_ticket a .groupe_planning p {
   font-weight: 300;
   font-size: 16px;
   margin: 0;
 }
-.contenuticket .day3_ticket {
-  margin-top: 30px;
-  margin-bottom: 30px;
+.eltticket .contenuticket .day3_ticket {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 50px;
   display: flex;
   flex-direction: row;
-  padding: 10px 200px;
+  padding: 10px 91px;
   border-radius: 99px;
-  background-color: #FC8E16;
+  background-color: #D10E3F;
 }
-.contenuticket .day3_ticket a {
+.eltticket .contenuticket .day3_ticket a {
   text-decoration: none;
 }
-.contenuticket .day3_ticket a .groupe_planning {
+.eltticket .contenuticket .day3_ticket a .groupe_planning {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.contenuticket .day3_ticket a .groupe_planning h3 {
+.eltticket .contenuticket .day3_ticket a .groupe_planning h3 {
   font-weight: 900;
   font-size: 40px;
 }
-.contenuticket .day3_ticket a .groupe_planning p {
+.eltticket .contenuticket .day3_ticket a .groupe_planning p {
   font-weight: 300;
   font-size: 16px;
   margin: 0;
 }
-.contenuticket .day4_ticket {
-  margin-top: 30px;
-  margin-bottom: 30px;
+.eltticket .contenuticket .day4_ticket {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 50px;
   display: flex;
   flex-direction: row;
-  padding: 10px 200px;
+  padding: 10px 95px;
   border-radius: 99px;
-  background-color: #FC8E16;
+  background-color: #8E0570;
 }
-.contenuticket .day4_ticket a {
+.eltticket .contenuticket .day4_ticket a {
   text-decoration: none;
 }
-.contenuticket .day4_ticket a .groupe_planning {
+.eltticket .contenuticket .day4_ticket a .groupe_planning {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.contenuticket .day4_ticket a .groupe_planning h3 {
+.eltticket .contenuticket .day4_ticket a .groupe_planning h3 {
   font-weight: 900;
   font-size: 40px;
 }
-.contenuticket .day4_ticket a .groupe_planning p {
+.eltticket .contenuticket .day4_ticket a .groupe_planning p {
   font-weight: 300;
   font-size: 16px;
   margin: 0;
 }
-.contenuticket .day5_ticket {
-  margin-top: 30px;
+.eltticket .contenuticket .day5_ticket {
+  margin-top: 15px;
   margin-bottom: 30px;
+  margin-left: 50px;
   display: flex;
   flex-direction: row;
-  padding: 10px 200px;
   border-radius: 99px;
-  background-color: #FC8E16;
+  background-color: #0E9AC2;
 }
-.contenuticket .day5_ticket a {
+.eltticket .contenuticket .day5_ticket a {
   text-decoration: none;
 }
-.contenuticket .day5_ticket a .groupe_planning {
+.eltticket .contenuticket .day5_ticket a .groupe_planning {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.contenuticket .day5_ticket a .groupe_planning h3 {
+.eltticket .contenuticket .day5_ticket a .groupe_planning h3 {
   font-weight: 900;
   font-size: 40px;
 }
-.contenuticket .day5_ticket a .groupe_planning p {
+.eltticket .contenuticket .day5_ticket a .groupe_planning p {
   font-weight: 300;
   font-size: 16px;
+  margin: 0;
+}
+.eltticket .VIP {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  background-color: #090424;
+  padding: 80px;
+  border-radius: 99px;
+  margin: 15px;
+}
+.eltticket .VIP h3 {
+  margin-bottom: 100px;
+  font-weight: 900;
+  font-size: 64px;
+}
+.eltticket .VIP p {
+  font-weight: 900;
+  font-size: 22px;
   margin: 0;
 }
 
+.about {
+  margin-top: 250px;
+  margin-bottom: 150px;
+}
 .about .titre_about .texte_about {
   display: flex;
   justify-content: center;
@@ -559,4 +599,413 @@ footer .eltfooter .sponsorfooter img {
 .about .texte_p_about .texte_special {
   font-size: 32px;
   margin-top: 35px;
+}
+
+.planning-page {
+  padding-top: 130px;
+}
+.planning-page .titre_planning {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.planning-page .planning1 {
+  background-color: #FC8E16;
+  border-radius: 95px;
+  margin: 50px 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0 20px 0;
+}
+.planning-page .planning1 .titre_planning1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: row;
+}
+.planning-page .planning1 .titre_planning1 h3 {
+  font-weight: 900;
+  font-size: 40px;
+  padding-right: 5px;
+}
+.planning-page .planning1 .titre_planning1 p {
+  font-weight: 300;
+  font-size: 16px;
+  padding-left: 5px;
+  margin: 0;
+}
+.planning-page .planning1 .tableau {
+  margin-top: 20px;
+  color: #f5f5f5;
+}
+.planning-page .planning1 .tableau tr .bordure1 {
+  text-align: right;
+  border-bottom: solid 1px;
+  border-left: solid 1px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 24px;
+  padding-left: 8px;
+}
+.planning-page .planning1 .tableau tr .bordure2 {
+  border-bottom: solid 1px;
+  border-left: solid 1px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 16px;
+}
+.planning-page .planning1 .tableau tr .bordure {
+  text-align: right;
+  border-bottom: solid 1px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 16px;
+}
+.planning-page .planning1 .tableau tr .bordure1-1 {
+  text-align: right;
+  border-left: solid 1px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 24px;
+  padding-left: 8px;
+}
+.planning-page .planning1 .tableau tr .bordure2-1 {
+  border-left: solid 1px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 16px;
+}
+.planning-page .planning1 .tableau tr .bordure-1 {
+  text-align: right;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 16px;
+}
+.planning-page .planning2 {
+  background-color: #F94C1E;
+  border-radius: 95px;
+  margin: 50px 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0 20px 0;
+}
+.planning-page .planning2 .titre_planning1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: row;
+}
+.planning-page .planning2 .titre_planning1 h3 {
+  font-weight: 900;
+  font-size: 40px;
+  padding-right: 5px;
+}
+.planning-page .planning2 .titre_planning1 p {
+  font-weight: 300;
+  font-size: 16px;
+  padding-left: 5px;
+  margin: 0;
+}
+.planning-page .planning2 .tableau {
+  margin-top: 20px;
+  color: #f5f5f5;
+}
+.planning-page .planning2 .tableau tr .bordure1 {
+  text-align: right;
+  border-bottom: solid 1px;
+  border-left: solid 1px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 24px;
+  padding-left: 8px;
+}
+.planning-page .planning2 .tableau tr .bordure2 {
+  border-bottom: solid 1px;
+  border-left: solid 1px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 16px;
+}
+.planning-page .planning2 .tableau tr .bordure {
+  text-align: right;
+  border-bottom: solid 1px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 16px;
+}
+.planning-page .planning2 .tableau tr .bordure1-1 {
+  text-align: right;
+  border-left: solid 1px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 24px;
+  padding-left: 8px;
+}
+.planning-page .planning2 .tableau tr .bordure2-1 {
+  border-left: solid 1px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 16px;
+}
+.planning-page .planning2 .tableau tr .bordure-1 {
+  text-align: right;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 16px;
+}
+.planning-page .planning3 {
+  background-color: #D10E3F;
+  border-radius: 95px;
+  margin: 50px 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0 20px 0;
+}
+.planning-page .planning3 .titre_planning1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: row;
+}
+.planning-page .planning3 .titre_planning1 h3 {
+  font-weight: 900;
+  font-size: 40px;
+  padding-right: 5px;
+}
+.planning-page .planning3 .titre_planning1 p {
+  font-weight: 300;
+  font-size: 16px;
+  padding-left: 5px;
+  margin: 0;
+}
+.planning-page .planning3 .tableau {
+  margin-top: 20px;
+  color: #f5f5f5;
+}
+.planning-page .planning3 .tableau tr .bordure1 {
+  text-align: right;
+  border-bottom: solid 1px;
+  border-left: solid 1px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 24px;
+  padding-left: 8px;
+}
+.planning-page .planning3 .tableau tr .bordure2 {
+  border-bottom: solid 1px;
+  border-left: solid 1px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 16px;
+}
+.planning-page .planning3 .tableau tr .bordure {
+  text-align: right;
+  border-bottom: solid 1px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 16px;
+}
+.planning-page .planning3 .tableau tr .bordure1-1 {
+  text-align: right;
+  border-left: solid 1px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 24px;
+  padding-left: 8px;
+}
+.planning-page .planning3 .tableau tr .bordure2-1 {
+  border-left: solid 1px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 16px;
+}
+.planning-page .planning3 .tableau tr .bordure-1 {
+  text-align: right;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 16px;
+}
+.planning-page .planning4 {
+  background-color: #8E0570;
+  border-radius: 95px;
+  margin: 50px 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0 20px 0;
+}
+.planning-page .planning4 .titre_planning1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: row;
+}
+.planning-page .planning4 .titre_planning1 h3 {
+  font-weight: 900;
+  font-size: 40px;
+  padding-right: 5px;
+}
+.planning-page .planning4 .titre_planning1 p {
+  font-weight: 300;
+  font-size: 16px;
+  padding-left: 5px;
+  margin: 0;
+}
+.planning-page .planning4 .tableau {
+  margin-top: 20px;
+  color: #f5f5f5;
+}
+.planning-page .planning4 .tableau tr .bordure1 {
+  text-align: right;
+  border-bottom: solid 1px;
+  border-left: solid 1px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 24px;
+  padding-left: 8px;
+}
+.planning-page .planning4 .tableau tr .bordure2 {
+  border-bottom: solid 1px;
+  border-left: solid 1px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 16px;
+}
+.planning-page .planning4 .tableau tr .bordure {
+  text-align: right;
+  border-bottom: solid 1px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 16px;
+}
+.planning-page .planning4 .tableau tr .bordure1-1 {
+  text-align: right;
+  border-left: solid 1px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 24px;
+  padding-left: 8px;
+}
+.planning-page .planning4 .tableau tr .bordure2-1 {
+  border-left: solid 1px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 16px;
+}
+.planning-page .planning4 .tableau tr .bordure-1 {
+  text-align: right;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 16px;
+}
+.planning-page .planning5 {
+  background-color: #0E9AC2;
+  border-radius: 95px;
+  margin: 50px 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0 20px 0;
+}
+.planning-page .planning5 .titre_planning1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: row;
+}
+.planning-page .planning5 .titre_planning1 h3 {
+  font-weight: 900;
+  font-size: 40px;
+  padding-right: 5px;
+}
+.planning-page .planning5 .titre_planning1 p {
+  font-weight: 300;
+  font-size: 16px;
+  padding-left: 5px;
+  margin: 0;
+}
+.planning-page .planning5 .tableau {
+  margin-top: 20px;
+  color: #f5f5f5;
+}
+.planning-page .planning5 .tableau tr .bordure1 {
+  text-align: right;
+  border-bottom: solid 1px;
+  border-left: solid 1px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 24px;
+  padding-left: 8px;
+}
+.planning-page .planning5 .tableau tr .bordure2 {
+  border-bottom: solid 1px;
+  border-left: solid 1px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 16px;
+}
+.planning-page .planning5 .tableau tr .bordure {
+  text-align: right;
+  border-bottom: solid 1px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 16px;
+}
+.planning-page .planning5 .tableau tr .bordure1-1 {
+  text-align: right;
+  border-left: solid 1px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 24px;
+  padding-left: 8px;
+}
+.planning-page .planning5 .tableau tr .bordure2-1 {
+  border-left: solid 1px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 16px;
+}
+.planning-page .planning5 .tableau tr .bordure-1 {
+  text-align: right;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 16px;
 }/*# sourceMappingURL=styles.css.map */
