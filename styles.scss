@@ -8,6 +8,7 @@ $bp-desk-small: 1024px;
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 
     * {
         box-sizing: border-box;
@@ -134,8 +135,8 @@ footer {
 // ACCUEIL
 .accueil {
     background-image: url(images/festival.png);
-    object-fit: contain;
-    background-size: 100%;
+    background-size: cover;
+    width: 100%;
 
     nav {
         position: fixed;
@@ -630,7 +631,7 @@ footer {
             margin-left: 50px;
             display: flex;
             flex-direction: row;
-            // padding: 10px 30px;
+            padding: 10px 110px;
             border-radius: 99px;
             background-color: #0E9AC2;
 
