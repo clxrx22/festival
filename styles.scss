@@ -36,11 +36,19 @@ h1 {
     font-family: 'Outfit', sans-serif;
     font-weight: 900;
     text-transform: uppercase;
-    font-size: 128px;
+    font-size: 28px;
     margin: 0;
 
     @media screen and (min-width: $bp-tablet) {
-        font-size: 96px;
+        font-size: 66px;
+    }
+
+    @media screen and (min-width: $bp-desk-small) {
+        font-size: 98px;
+    }
+
+    @media screen and (min-width: 1025px) {
+        font-size: 128px;
     }
 }
 
@@ -48,8 +56,16 @@ h2 {
     color: #FFFF;
     font-family: 'Outfit', sans-serif;
     font-weight: 900;
-    font-size: 118px;
+    font-size: 62px;
     margin: 0;
+
+    @media screen and (min-width: $bp-tablet) {
+        font-size: 96px;
+    }
+
+    @media screen and (min-width: $bp-desk-small) {
+        font-size: 128px;
+    }
 }
 
 h3 {
@@ -64,8 +80,17 @@ h4 {
     color: #FFFF;
     font-family: 'Outfit', sans-serif;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 12px;
     margin: 0;
+
+    @media screen and (min-width: $bp-tablet) {
+        font-size: 20px;
+    }
+
+    @media screen and (min-width: $bp-desk-small) {
+        font-size: 24px;
+    }
+
 }
 
 h5 {
@@ -74,7 +99,11 @@ h5 {
     font-weight: 500;
     margin: 5px 10px 5px 10px;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 10px;
+
+    @media screen and (min-width: $bp-tablet) {
+        font-size: 18px;
+    }
 }
 
 p {
@@ -93,7 +122,11 @@ footer {
     .eltfooter {
         display: flex;
         justify-content: space-between;
-        flex-direction: row;
+        flex-direction: column;
+
+        @media screen and (min-width: $bp-tablet) {
+            flex-direction: row;
+        }
 
         .contactfooter {
             display: flex;
@@ -102,8 +135,12 @@ footer {
             flex-direction: column;
 
             h1 {
-                font-size: 28px;
+                font-size: 18px;
                 color: #8E0570;
+
+                @media screen and (min-width: $bp-desk-small) {
+                    font-size: 28px;
+                }
             }
 
             p {
@@ -111,6 +148,11 @@ footer {
                 justify-content: flex-start;
                 color: #8E0570;
                 margin: 0;
+                font-size: 18px;
+
+                @media screen and (min-width: $bp-desk-small) {
+                    font-size: 24px;
+                }
             }
 
             img {
@@ -121,13 +163,27 @@ footer {
 
         .sponsorfooter {
             display: flex;
-            align-items: flex-end;
-            justify-content: flex-end;
-            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            margin-top: 20px;
+
+
+            @media screen and (min-width: $bp-tablet) {
+                display: flex;
+                align-items: flex-end;
+                justify-content: flex-end;
+                flex-direction: column;
+                margin-top: 0px;
+            }
 
             img {
-                width: 10%;
+                width: 20%;
                 margin: 10px;
+
+                @media screen and (min-width: $bp-tablet) {
+                    width: 10%;
+                }
             }
         }
     }
@@ -240,7 +296,20 @@ footer {
                 .titre_day1 {
                     text-transform: uppercase;
                     color: #FC8E16;
+                    font-size: 46px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 62px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 128px;
+                    }
                 }
+            }
+
+            img {
+                width: 50%;
             }
         }
 
@@ -267,7 +336,20 @@ footer {
                 .titre_day2 {
                     text-transform: uppercase;
                     color: #F74E1D;
+                    font-size: 46px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 62px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 128px;
+                    }
                 }
+            }
+
+            img {
+                width: 50%;
             }
         }
 
@@ -294,6 +376,15 @@ footer {
                 .titre_day3 {
                     text-transform: uppercase;
                     color: #D10E3F;
+                    font-size: 46px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 62px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 128px;
+                    }
                 }
             }
 
@@ -325,6 +416,15 @@ footer {
                 .titre_day4 {
                     text-transform: uppercase;
                     color: #8E0570;
+                    font-size: 46px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 62px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 128px;
+                    }
                 }
             }
 
@@ -356,6 +456,15 @@ footer {
                 .titre_day5 {
                     text-transform: uppercase;
                     color: #0E9AC2;
+                    font-size: 46px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 62px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 128px;
+                    }
                 }
             }
 
@@ -373,31 +482,58 @@ footer {
     }
 
     .planning {
-        margin-top: 50px;
-        margin-left: 100px;
+        margin-top: 30px;
         display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
         margin-bottom: 50px;
+
+        @media screen and (min-width: $bp-tablet) {
+            margin-left: 50px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        @media screen and (min-width: $bp-desk-small) {
+            margin-top: 50px;
+            margin-left: 100px;
+        }
 
 
         .button-planning {
             display: flex;
             flex-direction: row;
-            padding: 20px;
+            padding: 10px;
             border-radius: 99px;
             background-color: #FC8E16;
             text-decoration: none;
 
+            @media screen and (min-width: $bp-tablet) {
+                padding: 16px;
+            }
+
+            @media screen and (min-width: $bp-desk-small) {
+                padding: 20px;
+            }
+
             img {
                 display: flex;
-
                 align-self: flex-start;
 
+                width: 8%;
                 margin-left: 20px;
                 margin-right: 20px;
-                margin-top: 40px;
+                margin-top: 23px;
                 transform: rotate(-90deg);
+
+                @media screen and (min-width: $bp-tablet) {
+                    margin-top: 38px;
+                }
+
+                @media screen and (min-width: $bp-desk-small) {
+                    margin-top: 43px;
+                }
             }
 
             .groupe_planning {
@@ -408,13 +544,29 @@ footer {
 
                 h3 {
                     font-weight: 900;
-                    font-size: 52px;
+                    font-size: 24px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 38px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 52px;
+                    }
                 }
 
                 h5 {
                     text-transform: none;
                     font-weight: 900;
-                    font-size: 24px;
+                    font-size: 16px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 20px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 24px;
+                    }
                 }
 
             }
@@ -742,12 +894,20 @@ footer {
     .planning1 {
         background-color: #FC8E16;
         border-radius: 95px;
-        margin: 50px 230px;
+        margin: 50px 30px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         padding: 20px 0 20px 0;
+
+        @media screen and (min-width: $bp-tablet) {
+            margin: 50px 100px;
+        }
+
+        @media screen and (min-width: $bp-desk-small) {
+            margin: 50px 230px;
+        }
 
         .titre_planning1 {
             display: flex;
@@ -757,16 +917,25 @@ footer {
 
             h3 {
                 font-weight: 900;
-                font-size: 40px;
+                font-size: 24px;
                 padding-right: 5px;
+
+                @media screen and (min-width: $bp-tablet) {
+                    font-size: 40px;
+                }
             }
 
             p {
                 font-weight: 300;
-                font-size: 16px;
+                font-size: 12px;
                 padding-left: 5px;
                 margin: 0;
+
+                @media screen and (min-width: $bp-tablet) {
+                    font-size: 16px;
+                }
             }
+
         }
 
         .tableau {
@@ -781,8 +950,16 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 24px;
+                    font-size: 16px;
                     padding-left: 8px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 20px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 24px;
+                    }
                 }
 
                 .bordure2 {
@@ -791,7 +968,15 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 16px;
+                    font-size: 12px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 14px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 16px;
+                    }
                 }
 
                 .bordure {
@@ -801,7 +986,15 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 16px;
+                    font-size: 12px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 14px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 16px;
+                    }
                 }
 
                 .bordure1-1 {
@@ -810,8 +1003,16 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 24px;
+                    font-size: 16px;
                     padding-left: 8px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 20px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 24px;
+                    }
                 }
 
                 .bordure2-1 {
@@ -819,7 +1020,15 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 16px;
+                    font-size: 12px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 14px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 16px;
+                    }
                 }
 
                 .bordure-1 {
@@ -828,7 +1037,15 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 16px;
+                    font-size: 12px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 14px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 16px;
+                    }
                 }
             }
         }
