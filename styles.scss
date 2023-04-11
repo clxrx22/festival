@@ -18,7 +18,8 @@ html {
 body {
     background-color: #050314;
     overflow-x: hidden;
-    margin: 0;
+    margin: auto;
+    // max-width: 500px;
     padding: 0;
 }
 
@@ -729,11 +730,10 @@ footer {
 }
 
 // PLANNING
-
 .planning-page {
     padding-top: 130px;
 
-    .titre_planning{
+    .titre_planning {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -747,7 +747,7 @@ footer {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding: 20px 0 20px 0 ;
+        padding: 20px 0 20px 0;
 
         .titre_planning1 {
             display: flex;
@@ -842,7 +842,7 @@ footer {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding: 20px 0 20px 0 ;
+        padding: 20px 0 20px 0;
 
         .titre_planning1 {
             display: flex;
@@ -937,7 +937,7 @@ footer {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding: 20px 0 20px 0 ;
+        padding: 20px 0 20px 0;
 
         .titre_planning1 {
             display: flex;
@@ -1032,7 +1032,7 @@ footer {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding: 20px 0 20px 0 ;
+        padding: 20px 0 20px 0;
 
         .titre_planning1 {
             display: flex;
@@ -1127,7 +1127,7 @@ footer {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding: 20px 0 20px 0 ;
+        padding: 20px 0 20px 0;
 
         .titre_planning1 {
             display: flex;
@@ -1211,6 +1211,113 @@ footer {
                     font-size: 16px;
                 }
             }
+        }
+    }
+}
+
+// INFORMATIONS
+.pratical_info {
+    background-image: url(images/festival.png);
+    background-size: cover;
+    width: 100%;
+
+    .text_pratical {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        background-color: #050314;
+        margin: 0px 200px;
+
+        h2 {
+            margin: 50px 5px;
+            text-transform: uppercase;
+            font-size: 64px;
+        }
+
+        h3 {
+            font-size: 28px;
+            font-weight: 600;
+            margin: 20px;
+        }
+
+        p {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        ul {
+            color: #FFFF;
+            font-family: 'Outfit', sans-serif;
+            font-weight: 300;
+            margin: 0;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .app {
+            margin: 40px;
+
+            .boutton_app {
+                color: #FFFF;
+                font-family: 'Outfit', sans-serif;
+                font-weight: 300;
+                margin: 0;
+                font-size: 20px;
+                text-align: center;
+                text-decoration: none;
+                background-color: #FC8E16;
+                padding: 5px 50px;
+                border-radius: 33px;
+            }
+        }
+
+        .boutton {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            .boutton_map {
+                margin: 40px 20px;
+                color: #FFFF;
+                font-family: 'Outfit', sans-serif;
+                font-weight: 300;
+                font-size: 20px;
+                text-align: center;
+                text-decoration: none;
+                background-color: #8E0570;
+                padding: 5px 50px;
+                border-radius: 33px;
+            }
+
+            .boutton_flyer {
+                margin: 40px 20px;
+                color: #FFFF;
+                font-family: 'Outfit', sans-serif;
+                font-weight: 300;
+                font-size: 20px;
+                text-align: center;
+                text-decoration: none;
+                background-color: #0E9AC2;
+                padding: 5px 50px;
+                border-radius: 33px;
+            }
+
+            .boutton_poster {
+                margin: 40px 20px;
+                color: #FFFF;
+                font-family: 'Outfit', sans-serif;
+                font-weight: 300;
+                font-size: 20px;
+                text-align: center;
+                text-decoration: none;
+                background-color: #D10E3F;
+                padding: 5px 50px;
+                border-radius: 33px;
+            }
+
         }
     }
 }
