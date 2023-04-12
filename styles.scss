@@ -1054,12 +1054,20 @@ footer {
     .planning2 {
         background-color: #F94C1E;
         border-radius: 95px;
-        margin: 50px 230px;
+        margin: 50px 30px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         padding: 20px 0 20px 0;
+
+        @media screen and (min-width: $bp-tablet) {
+            margin: 50px 100px;
+        }
+
+        @media screen and (min-width: $bp-desk-small) {
+            margin: 50px 230px;
+        }
 
         .titre_planning1 {
             display: flex;
@@ -1069,16 +1077,25 @@ footer {
 
             h3 {
                 font-weight: 900;
-                font-size: 40px;
+                font-size: 24px;
                 padding-right: 5px;
+
+                @media screen and (min-width: $bp-tablet) {
+                    font-size: 40px;
+                }
             }
 
             p {
                 font-weight: 300;
-                font-size: 16px;
+                font-size: 12px;
                 padding-left: 5px;
                 margin: 0;
+
+                @media screen and (min-width: $bp-tablet) {
+                    font-size: 16px;
+                }
             }
+
         }
 
         .tableau {
@@ -1093,8 +1110,16 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 24px;
+                    font-size: 16px;
                     padding-left: 8px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 20px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 24px;
+                    }
                 }
 
                 .bordure2 {
@@ -1103,7 +1128,15 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 16px;
+                    font-size: 12px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 14px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 16px;
+                    }
                 }
 
                 .bordure {
@@ -1113,7 +1146,15 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 16px;
+                    font-size: 12px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 14px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 16px;
+                    }
                 }
 
                 .bordure1-1 {
@@ -1122,8 +1163,16 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 24px;
+                    font-size: 16px;
                     padding-left: 8px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 20px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 24px;
+                    }
                 }
 
                 .bordure2-1 {
@@ -1131,7 +1180,15 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 16px;
+                    font-size: 12px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 14px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 16px;
+                    }
                 }
 
                 .bordure-1 {
@@ -1140,7 +1197,15 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 16px;
+                    font-size: 12px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 14px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 16px;
+                    }
                 }
             }
         }
@@ -1149,12 +1214,20 @@ footer {
     .planning3 {
         background-color: #D10E3F;
         border-radius: 95px;
-        margin: 50px 230px;
+        margin: 50px 30px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         padding: 20px 0 20px 0;
+
+        @media screen and (min-width: $bp-tablet) {
+            margin: 50px 100px;
+        }
+
+        @media screen and (min-width: $bp-desk-small) {
+            margin: 50px 230px;
+        }
 
         .titre_planning1 {
             display: flex;
@@ -1164,16 +1237,25 @@ footer {
 
             h3 {
                 font-weight: 900;
-                font-size: 40px;
+                font-size: 24px;
                 padding-right: 5px;
+
+                @media screen and (min-width: $bp-tablet) {
+                    font-size: 40px;
+                }
             }
 
             p {
                 font-weight: 300;
-                font-size: 16px;
+                font-size: 12px;
                 padding-left: 5px;
                 margin: 0;
+
+                @media screen and (min-width: $bp-tablet) {
+                    font-size: 16px;
+                }
             }
+
         }
 
         .tableau {
@@ -1188,8 +1270,16 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 24px;
+                    font-size: 16px;
                     padding-left: 8px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 20px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 24px;
+                    }
                 }
 
                 .bordure2 {
@@ -1198,7 +1288,15 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 16px;
+                    font-size: 12px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 14px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 16px;
+                    }
                 }
 
                 .bordure {
@@ -1208,7 +1306,15 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 16px;
+                    font-size: 12px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 14px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 16px;
+                    }
                 }
 
                 .bordure1-1 {
@@ -1217,8 +1323,16 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 24px;
+                    font-size: 16px;
                     padding-left: 8px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 20px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 24px;
+                    }
                 }
 
                 .bordure2-1 {
@@ -1226,7 +1340,15 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 16px;
+                    font-size: 12px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 14px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 16px;
+                    }
                 }
 
                 .bordure-1 {
@@ -1235,7 +1357,15 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 16px;
+                    font-size: 12px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 14px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 16px;
+                    }
                 }
             }
         }
@@ -1244,12 +1374,20 @@ footer {
     .planning4 {
         background-color: #8E0570;
         border-radius: 95px;
-        margin: 50px 230px;
+        margin: 50px 30px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         padding: 20px 0 20px 0;
+
+        @media screen and (min-width: $bp-tablet) {
+            margin: 50px 100px;
+        }
+
+        @media screen and (min-width: $bp-desk-small) {
+            margin: 50px 230px;
+        }
 
         .titre_planning1 {
             display: flex;
@@ -1259,16 +1397,25 @@ footer {
 
             h3 {
                 font-weight: 900;
-                font-size: 40px;
+                font-size: 24px;
                 padding-right: 5px;
+
+                @media screen and (min-width: $bp-tablet) {
+                    font-size: 40px;
+                }
             }
 
             p {
                 font-weight: 300;
-                font-size: 16px;
+                font-size: 12px;
                 padding-left: 5px;
                 margin: 0;
+
+                @media screen and (min-width: $bp-tablet) {
+                    font-size: 16px;
+                }
             }
+
         }
 
         .tableau {
@@ -1283,8 +1430,16 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 24px;
+                    font-size: 16px;
                     padding-left: 8px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 20px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 24px;
+                    }
                 }
 
                 .bordure2 {
@@ -1293,7 +1448,15 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 16px;
+                    font-size: 12px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 14px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 16px;
+                    }
                 }
 
                 .bordure {
@@ -1303,7 +1466,15 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 16px;
+                    font-size: 12px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 14px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 16px;
+                    }
                 }
 
                 .bordure1-1 {
@@ -1312,8 +1483,16 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 24px;
+                    font-size: 16px;
                     padding-left: 8px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 20px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 24px;
+                    }
                 }
 
                 .bordure2-1 {
@@ -1321,7 +1500,15 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 16px;
+                    font-size: 12px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 14px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 16px;
+                    }
                 }
 
                 .bordure-1 {
@@ -1330,7 +1517,15 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 16px;
+                    font-size: 12px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 14px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 16px;
+                    }
                 }
             }
         }
@@ -1339,12 +1534,20 @@ footer {
     .planning5 {
         background-color: #0E9AC2;
         border-radius: 95px;
-        margin: 50px 230px;
+        margin: 50px 30px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         padding: 20px 0 20px 0;
+
+        @media screen and (min-width: $bp-tablet) {
+            margin: 50px 100px;
+        }
+
+        @media screen and (min-width: $bp-desk-small) {
+            margin: 50px 230px;
+        }
 
         .titre_planning1 {
             display: flex;
@@ -1354,16 +1557,25 @@ footer {
 
             h3 {
                 font-weight: 900;
-                font-size: 40px;
+                font-size: 24px;
                 padding-right: 5px;
+
+                @media screen and (min-width: $bp-tablet) {
+                    font-size: 40px;
+                }
             }
 
             p {
                 font-weight: 300;
-                font-size: 16px;
+                font-size: 12px;
                 padding-left: 5px;
                 margin: 0;
+
+                @media screen and (min-width: $bp-tablet) {
+                    font-size: 16px;
+                }
             }
+
         }
 
         .tableau {
@@ -1378,8 +1590,16 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 24px;
+                    font-size: 16px;
                     padding-left: 8px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 20px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 24px;
+                    }
                 }
 
                 .bordure2 {
@@ -1388,7 +1608,15 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 16px;
+                    font-size: 12px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 14px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 16px;
+                    }
                 }
 
                 .bordure {
@@ -1398,7 +1626,15 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 16px;
+                    font-size: 12px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 14px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 16px;
+                    }
                 }
 
                 .bordure1-1 {
@@ -1407,8 +1643,16 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 24px;
+                    font-size: 16px;
                     padding-left: 8px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 20px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 24px;
+                    }
                 }
 
                 .bordure2-1 {
@@ -1416,7 +1660,15 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 16px;
+                    font-size: 12px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 14px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 16px;
+                    }
                 }
 
                 .bordure-1 {
@@ -1425,7 +1677,15 @@ footer {
                     font-family: 'Outfit', sans-serif;
                     font-weight: 900;
                     padding: 3px;
-                    font-size: 16px;
+                    font-size: 12px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        font-size: 14px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        font-size: 16px;
+                    }
                 }
             }
         }

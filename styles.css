@@ -954,12 +954,22 @@ footer .eltfooter .sponsorfooter img {
 .planning-page .planning2 {
   background-color: #F94C1E;
   border-radius: 95px;
-  margin: 50px 230px;
+  margin: 50px 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 20px 0 20px 0;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning2 {
+    margin: 50px 100px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning2 {
+    margin: 50px 230px;
+  }
 }
 .planning-page .planning2 .titre_planning1 {
   display: flex;
@@ -969,14 +979,24 @@ footer .eltfooter .sponsorfooter img {
 }
 .planning-page .planning2 .titre_planning1 h3 {
   font-weight: 900;
-  font-size: 40px;
+  font-size: 24px;
   padding-right: 5px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning2 .titre_planning1 h3 {
+    font-size: 40px;
+  }
 }
 .planning-page .planning2 .titre_planning1 p {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 12px;
   padding-left: 5px;
   margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning2 .titre_planning1 p {
+    font-size: 16px;
+  }
 }
 .planning-page .planning2 .tableau {
   margin-top: 20px;
@@ -989,8 +1009,18 @@ footer .eltfooter .sponsorfooter img {
   font-family: "Outfit", sans-serif;
   font-weight: 900;
   padding: 3px;
-  font-size: 24px;
+  font-size: 16px;
   padding-left: 8px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning2 .tableau tr .bordure1 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning2 .tableau tr .bordure1 {
+    font-size: 24px;
+  }
 }
 .planning-page .planning2 .tableau tr .bordure2 {
   border-bottom: solid 1px;
@@ -998,7 +1028,17 @@ footer .eltfooter .sponsorfooter img {
   font-family: "Outfit", sans-serif;
   font-weight: 900;
   padding: 3px;
-  font-size: 16px;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning2 .tableau tr .bordure2 {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning2 .tableau tr .bordure2 {
+    font-size: 16px;
+  }
 }
 .planning-page .planning2 .tableau tr .bordure {
   text-align: right;
@@ -1006,7 +1046,17 @@ footer .eltfooter .sponsorfooter img {
   font-family: "Outfit", sans-serif;
   font-weight: 900;
   padding: 3px;
-  font-size: 16px;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning2 .tableau tr .bordure {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning2 .tableau tr .bordure {
+    font-size: 16px;
+  }
 }
 .planning-page .planning2 .tableau tr .bordure1-1 {
   text-align: right;
@@ -1014,32 +1064,72 @@ footer .eltfooter .sponsorfooter img {
   font-family: "Outfit", sans-serif;
   font-weight: 900;
   padding: 3px;
-  font-size: 24px;
+  font-size: 16px;
   padding-left: 8px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning2 .tableau tr .bordure1-1 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning2 .tableau tr .bordure1-1 {
+    font-size: 24px;
+  }
 }
 .planning-page .planning2 .tableau tr .bordure2-1 {
   border-left: solid 1px;
   font-family: "Outfit", sans-serif;
   font-weight: 900;
   padding: 3px;
-  font-size: 16px;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning2 .tableau tr .bordure2-1 {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning2 .tableau tr .bordure2-1 {
+    font-size: 16px;
+  }
 }
 .planning-page .planning2 .tableau tr .bordure-1 {
   text-align: right;
   font-family: "Outfit", sans-serif;
   font-weight: 900;
   padding: 3px;
-  font-size: 16px;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning2 .tableau tr .bordure-1 {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning2 .tableau tr .bordure-1 {
+    font-size: 16px;
+  }
 }
 .planning-page .planning3 {
   background-color: #D10E3F;
   border-radius: 95px;
-  margin: 50px 230px;
+  margin: 50px 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 20px 0 20px 0;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning3 {
+    margin: 50px 100px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning3 {
+    margin: 50px 230px;
+  }
 }
 .planning-page .planning3 .titre_planning1 {
   display: flex;
@@ -1049,14 +1139,24 @@ footer .eltfooter .sponsorfooter img {
 }
 .planning-page .planning3 .titre_planning1 h3 {
   font-weight: 900;
-  font-size: 40px;
+  font-size: 24px;
   padding-right: 5px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning3 .titre_planning1 h3 {
+    font-size: 40px;
+  }
 }
 .planning-page .planning3 .titre_planning1 p {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 12px;
   padding-left: 5px;
   margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning3 .titre_planning1 p {
+    font-size: 16px;
+  }
 }
 .planning-page .planning3 .tableau {
   margin-top: 20px;
@@ -1069,8 +1169,18 @@ footer .eltfooter .sponsorfooter img {
   font-family: "Outfit", sans-serif;
   font-weight: 900;
   padding: 3px;
-  font-size: 24px;
+  font-size: 16px;
   padding-left: 8px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning3 .tableau tr .bordure1 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning3 .tableau tr .bordure1 {
+    font-size: 24px;
+  }
 }
 .planning-page .planning3 .tableau tr .bordure2 {
   border-bottom: solid 1px;
@@ -1078,7 +1188,17 @@ footer .eltfooter .sponsorfooter img {
   font-family: "Outfit", sans-serif;
   font-weight: 900;
   padding: 3px;
-  font-size: 16px;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning3 .tableau tr .bordure2 {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning3 .tableau tr .bordure2 {
+    font-size: 16px;
+  }
 }
 .planning-page .planning3 .tableau tr .bordure {
   text-align: right;
@@ -1086,7 +1206,17 @@ footer .eltfooter .sponsorfooter img {
   font-family: "Outfit", sans-serif;
   font-weight: 900;
   padding: 3px;
-  font-size: 16px;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning3 .tableau tr .bordure {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning3 .tableau tr .bordure {
+    font-size: 16px;
+  }
 }
 .planning-page .planning3 .tableau tr .bordure1-1 {
   text-align: right;
@@ -1094,32 +1224,72 @@ footer .eltfooter .sponsorfooter img {
   font-family: "Outfit", sans-serif;
   font-weight: 900;
   padding: 3px;
-  font-size: 24px;
+  font-size: 16px;
   padding-left: 8px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning3 .tableau tr .bordure1-1 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning3 .tableau tr .bordure1-1 {
+    font-size: 24px;
+  }
 }
 .planning-page .planning3 .tableau tr .bordure2-1 {
   border-left: solid 1px;
   font-family: "Outfit", sans-serif;
   font-weight: 900;
   padding: 3px;
-  font-size: 16px;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning3 .tableau tr .bordure2-1 {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning3 .tableau tr .bordure2-1 {
+    font-size: 16px;
+  }
 }
 .planning-page .planning3 .tableau tr .bordure-1 {
   text-align: right;
   font-family: "Outfit", sans-serif;
   font-weight: 900;
   padding: 3px;
-  font-size: 16px;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning3 .tableau tr .bordure-1 {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning3 .tableau tr .bordure-1 {
+    font-size: 16px;
+  }
 }
 .planning-page .planning4 {
   background-color: #8E0570;
   border-radius: 95px;
-  margin: 50px 230px;
+  margin: 50px 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 20px 0 20px 0;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning4 {
+    margin: 50px 100px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning4 {
+    margin: 50px 230px;
+  }
 }
 .planning-page .planning4 .titre_planning1 {
   display: flex;
@@ -1129,14 +1299,24 @@ footer .eltfooter .sponsorfooter img {
 }
 .planning-page .planning4 .titre_planning1 h3 {
   font-weight: 900;
-  font-size: 40px;
+  font-size: 24px;
   padding-right: 5px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning4 .titre_planning1 h3 {
+    font-size: 40px;
+  }
 }
 .planning-page .planning4 .titre_planning1 p {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 12px;
   padding-left: 5px;
   margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning4 .titre_planning1 p {
+    font-size: 16px;
+  }
 }
 .planning-page .planning4 .tableau {
   margin-top: 20px;
@@ -1149,8 +1329,18 @@ footer .eltfooter .sponsorfooter img {
   font-family: "Outfit", sans-serif;
   font-weight: 900;
   padding: 3px;
-  font-size: 24px;
+  font-size: 16px;
   padding-left: 8px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning4 .tableau tr .bordure1 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning4 .tableau tr .bordure1 {
+    font-size: 24px;
+  }
 }
 .planning-page .planning4 .tableau tr .bordure2 {
   border-bottom: solid 1px;
@@ -1158,7 +1348,17 @@ footer .eltfooter .sponsorfooter img {
   font-family: "Outfit", sans-serif;
   font-weight: 900;
   padding: 3px;
-  font-size: 16px;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning4 .tableau tr .bordure2 {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning4 .tableau tr .bordure2 {
+    font-size: 16px;
+  }
 }
 .planning-page .planning4 .tableau tr .bordure {
   text-align: right;
@@ -1166,7 +1366,17 @@ footer .eltfooter .sponsorfooter img {
   font-family: "Outfit", sans-serif;
   font-weight: 900;
   padding: 3px;
-  font-size: 16px;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning4 .tableau tr .bordure {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning4 .tableau tr .bordure {
+    font-size: 16px;
+  }
 }
 .planning-page .planning4 .tableau tr .bordure1-1 {
   text-align: right;
@@ -1174,32 +1384,72 @@ footer .eltfooter .sponsorfooter img {
   font-family: "Outfit", sans-serif;
   font-weight: 900;
   padding: 3px;
-  font-size: 24px;
+  font-size: 16px;
   padding-left: 8px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning4 .tableau tr .bordure1-1 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning4 .tableau tr .bordure1-1 {
+    font-size: 24px;
+  }
 }
 .planning-page .planning4 .tableau tr .bordure2-1 {
   border-left: solid 1px;
   font-family: "Outfit", sans-serif;
   font-weight: 900;
   padding: 3px;
-  font-size: 16px;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning4 .tableau tr .bordure2-1 {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning4 .tableau tr .bordure2-1 {
+    font-size: 16px;
+  }
 }
 .planning-page .planning4 .tableau tr .bordure-1 {
   text-align: right;
   font-family: "Outfit", sans-serif;
   font-weight: 900;
   padding: 3px;
-  font-size: 16px;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning4 .tableau tr .bordure-1 {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning4 .tableau tr .bordure-1 {
+    font-size: 16px;
+  }
 }
 .planning-page .planning5 {
   background-color: #0E9AC2;
   border-radius: 95px;
-  margin: 50px 230px;
+  margin: 50px 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 20px 0 20px 0;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning5 {
+    margin: 50px 100px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning5 {
+    margin: 50px 230px;
+  }
 }
 .planning-page .planning5 .titre_planning1 {
   display: flex;
@@ -1209,14 +1459,24 @@ footer .eltfooter .sponsorfooter img {
 }
 .planning-page .planning5 .titre_planning1 h3 {
   font-weight: 900;
-  font-size: 40px;
+  font-size: 24px;
   padding-right: 5px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning5 .titre_planning1 h3 {
+    font-size: 40px;
+  }
 }
 .planning-page .planning5 .titre_planning1 p {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 12px;
   padding-left: 5px;
   margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning5 .titre_planning1 p {
+    font-size: 16px;
+  }
 }
 .planning-page .planning5 .tableau {
   margin-top: 20px;
@@ -1229,8 +1489,18 @@ footer .eltfooter .sponsorfooter img {
   font-family: "Outfit", sans-serif;
   font-weight: 900;
   padding: 3px;
-  font-size: 24px;
+  font-size: 16px;
   padding-left: 8px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning5 .tableau tr .bordure1 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning5 .tableau tr .bordure1 {
+    font-size: 24px;
+  }
 }
 .planning-page .planning5 .tableau tr .bordure2 {
   border-bottom: solid 1px;
@@ -1238,7 +1508,17 @@ footer .eltfooter .sponsorfooter img {
   font-family: "Outfit", sans-serif;
   font-weight: 900;
   padding: 3px;
-  font-size: 16px;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning5 .tableau tr .bordure2 {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning5 .tableau tr .bordure2 {
+    font-size: 16px;
+  }
 }
 .planning-page .planning5 .tableau tr .bordure {
   text-align: right;
@@ -1246,7 +1526,17 @@ footer .eltfooter .sponsorfooter img {
   font-family: "Outfit", sans-serif;
   font-weight: 900;
   padding: 3px;
-  font-size: 16px;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning5 .tableau tr .bordure {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning5 .tableau tr .bordure {
+    font-size: 16px;
+  }
 }
 .planning-page .planning5 .tableau tr .bordure1-1 {
   text-align: right;
@@ -1254,22 +1544,52 @@ footer .eltfooter .sponsorfooter img {
   font-family: "Outfit", sans-serif;
   font-weight: 900;
   padding: 3px;
-  font-size: 24px;
+  font-size: 16px;
   padding-left: 8px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning5 .tableau tr .bordure1-1 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning5 .tableau tr .bordure1-1 {
+    font-size: 24px;
+  }
 }
 .planning-page .planning5 .tableau tr .bordure2-1 {
   border-left: solid 1px;
   font-family: "Outfit", sans-serif;
   font-weight: 900;
   padding: 3px;
-  font-size: 16px;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning5 .tableau tr .bordure2-1 {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning5 .tableau tr .bordure2-1 {
+    font-size: 16px;
+  }
 }
 .planning-page .planning5 .tableau tr .bordure-1 {
   text-align: right;
   font-family: "Outfit", sans-serif;
   font-weight: 900;
   padding: 3px;
-  font-size: 16px;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .planning-page .planning5 .tableau tr .bordure-1 {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .planning-page .planning5 .tableau tr .bordure-1 {
+    font-size: 16px;
+  }
 }
 
 .pratical_info {
