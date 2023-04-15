@@ -1708,6 +1708,10 @@ footer {
         margin: 0px 40px;
 
         @media screen and (min-width: $bp-tablet) {
+            margin: 0px 75px;
+        }
+
+        @media screen and (min-width: $bp-desk-small) {
             margin: 0px 200px;
         }
 
@@ -1735,6 +1739,10 @@ footer {
             @media screen and (min-width: $bp-tablet) {
                 margin: 0;
             }
+        }
+
+        .prevention{
+            margin-bottom: 30px;
         }
 
         ul {
@@ -1765,9 +1773,13 @@ footer {
 
         .boutton {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
+
+            @media screen and (min-width: $bp-desk-small) {
+                flex-direction: row;
+            }
 
             .boutton_map {
                 margin: 40px 20px;
@@ -1796,7 +1808,7 @@ footer {
             }
 
             .boutton_poster {
-                margin: 40px 20px;
+                margin: 0px 20px;
                 color: #FFFF;
                 font-family: 'Outfit', sans-serif;
                 font-weight: 300;
@@ -1806,6 +1818,10 @@ footer {
                 background-color: #D10E3F;
                 padding: 5px 50px;
                 border-radius: 33px;
+
+                @media screen and (min-width: $bp-desk-small) {
+                    margin: 40px 20px;
+                }
             }
 
         }

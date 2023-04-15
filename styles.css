@@ -1607,6 +1607,11 @@ footer .eltfooter .sponsorfooter img {
 }
 @media screen and (min-width: 768px) {
   .pratical_info .text_pratical {
+    margin: 0px 75px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .pratical_info .text_pratical {
     margin: 0px 200px;
   }
 }
@@ -1635,6 +1640,9 @@ footer .eltfooter .sponsorfooter img {
     margin: 0;
   }
 }
+.pratical_info .text_pratical .prevention {
+  margin-bottom: 30px;
+}
 .pratical_info .text_pratical ul {
   color: white;
   font-family: "Outfit", sans-serif;
@@ -1660,9 +1668,14 @@ footer .eltfooter .sponsorfooter img {
 }
 .pratical_info .text_pratical .boutton {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media screen and (min-width: 1024px) {
+  .pratical_info .text_pratical .boutton {
+    flex-direction: row;
+  }
 }
 .pratical_info .text_pratical .boutton .boutton_map {
   margin: 40px 20px;
@@ -1689,7 +1702,7 @@ footer .eltfooter .sponsorfooter img {
   border-radius: 33px;
 }
 .pratical_info .text_pratical .boutton .boutton_poster {
-  margin: 40px 20px;
+  margin: 0px 20px;
   color: white;
   font-family: "Outfit", sans-serif;
   font-weight: 300;
@@ -1699,4 +1712,9 @@ footer .eltfooter .sponsorfooter img {
   background-color: #D10E3F;
   padding: 5px 50px;
   border-radius: 33px;
+}
+@media screen and (min-width: 1024px) {
+  .pratical_info .text_pratical .boutton .boutton_poster {
+    margin: 40px 20px;
+  }
 }/*# sourceMappingURL=styles.css.map */
