@@ -110,8 +110,13 @@ p {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   margin: 80px 150px 35px 150px;
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 24px;
+  }
 }
 
 footer {
@@ -566,21 +571,41 @@ footer .eltfooter .sponsorfooter img {
   flex-direction: column;
 }
 .ticket .titre_ticket .texte_ticket {
-  padding-top: 130px;
-  text-align: left;
+  padding-top: 50px;
+  text-align: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
+@media screen and (min-width: 768px) {
+  .ticket .titre_ticket .texte_ticket {
+    padding-top: 130px;
+    text-align: left;
+  }
+}
 
 .eltticket {
   background-image: url(images/festival.png);
-  background-size: 100%;
-  margin-top: 130px;
+  margin-top: 50px;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .eltticket {
+    margin-top: 70px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .eltticket {
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
 }
 .eltticket .contenuticket {
   display: flex;
@@ -591,12 +616,18 @@ footer .eltfooter .sponsorfooter img {
 .eltticket .contenuticket .day1_ticket {
   margin-top: 30px;
   margin-bottom: 15px;
-  margin-left: 50px;
+  margin: 10px;
   display: flex;
   flex-direction: row;
   padding: 10px 100px;
   border-radius: 99px;
   background-color: #FC8E16;
+}
+@media screen and (min-width: 768px) {
+  .eltticket .contenuticket .day1_ticket {
+    margin-left: 50px;
+    margin: 20px;
+  }
 }
 .eltticket .contenuticket .day1_ticket a {
   text-decoration: none;
@@ -609,22 +640,38 @@ footer .eltfooter .sponsorfooter img {
 }
 .eltticket .contenuticket .day1_ticket a .groupe_planning h3 {
   font-weight: 900;
-  font-size: 40px;
+  font-size: 30px;
+}
+@media screen and (min-width: 768px) {
+  .eltticket .contenuticket .day1_ticket a .groupe_planning h3 {
+    font-size: 40px;
+  }
 }
 .eltticket .contenuticket .day1_ticket a .groupe_planning p {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 12px;
   margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .eltticket .contenuticket .day1_ticket a .groupe_planning p {
+    font-size: 16px;
+  }
 }
 .eltticket .contenuticket .day2_ticket {
   margin-top: 15px;
   margin-bottom: 15px;
-  margin-left: 50px;
+  margin: 10px;
   display: flex;
   flex-direction: row;
   padding: 10px 95px;
   border-radius: 99px;
   background-color: #F94C1E;
+}
+@media screen and (min-width: 768px) {
+  .eltticket .contenuticket .day2_ticket {
+    margin-left: 50px;
+    margin: 20px;
+  }
 }
 .eltticket .contenuticket .day2_ticket a {
   text-decoration: none;
@@ -637,22 +684,38 @@ footer .eltfooter .sponsorfooter img {
 }
 .eltticket .contenuticket .day2_ticket a .groupe_planning h3 {
   font-weight: 900;
-  font-size: 40px;
+  font-size: 30px;
+}
+@media screen and (min-width: 768px) {
+  .eltticket .contenuticket .day2_ticket a .groupe_planning h3 {
+    font-size: 40px;
+  }
 }
 .eltticket .contenuticket .day2_ticket a .groupe_planning p {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 12px;
   margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .eltticket .contenuticket .day2_ticket a .groupe_planning p {
+    font-size: 16px;
+  }
 }
 .eltticket .contenuticket .day3_ticket {
   margin-top: 15px;
   margin-bottom: 15px;
-  margin-left: 50px;
+  margin: 10px;
   display: flex;
   flex-direction: row;
   padding: 10px 91px;
   border-radius: 99px;
   background-color: #D10E3F;
+}
+@media screen and (min-width: 768px) {
+  .eltticket .contenuticket .day3_ticket {
+    margin-left: 50px;
+    margin: 20px;
+  }
 }
 .eltticket .contenuticket .day3_ticket a {
   text-decoration: none;
@@ -665,22 +728,38 @@ footer .eltfooter .sponsorfooter img {
 }
 .eltticket .contenuticket .day3_ticket a .groupe_planning h3 {
   font-weight: 900;
-  font-size: 40px;
+  font-size: 30px;
+}
+@media screen and (min-width: 768px) {
+  .eltticket .contenuticket .day3_ticket a .groupe_planning h3 {
+    font-size: 40px;
+  }
 }
 .eltticket .contenuticket .day3_ticket a .groupe_planning p {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 12px;
   margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .eltticket .contenuticket .day3_ticket a .groupe_planning p {
+    font-size: 16px;
+  }
 }
 .eltticket .contenuticket .day4_ticket {
   margin-top: 15px;
   margin-bottom: 15px;
-  margin-left: 50px;
+  margin: 10px;
   display: flex;
   flex-direction: row;
   padding: 10px 95px;
   border-radius: 99px;
   background-color: #8E0570;
+}
+@media screen and (min-width: 768px) {
+  .eltticket .contenuticket .day4_ticket {
+    margin-left: 50px;
+    margin: 20px;
+  }
 }
 .eltticket .contenuticket .day4_ticket a {
   text-decoration: none;
@@ -693,22 +772,38 @@ footer .eltfooter .sponsorfooter img {
 }
 .eltticket .contenuticket .day4_ticket a .groupe_planning h3 {
   font-weight: 900;
-  font-size: 40px;
+  font-size: 30px;
+}
+@media screen and (min-width: 768px) {
+  .eltticket .contenuticket .day4_ticket a .groupe_planning h3 {
+    font-size: 40px;
+  }
 }
 .eltticket .contenuticket .day4_ticket a .groupe_planning p {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 12px;
   margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .eltticket .contenuticket .day4_ticket a .groupe_planning p {
+    font-size: 16px;
+  }
 }
 .eltticket .contenuticket .day5_ticket {
   margin-top: 15px;
   margin-bottom: 30px;
-  margin-left: 50px;
+  margin: 10px;
   display: flex;
   flex-direction: row;
   padding: 10px 110px;
   border-radius: 99px;
   background-color: #0E9AC2;
+}
+@media screen and (min-width: 768px) {
+  .eltticket .contenuticket .day5_ticket {
+    margin-left: 50px;
+    margin: 20px;
+  }
 }
 .eltticket .contenuticket .day5_ticket a {
   text-decoration: none;
@@ -721,12 +816,22 @@ footer .eltfooter .sponsorfooter img {
 }
 .eltticket .contenuticket .day5_ticket a .groupe_planning h3 {
   font-weight: 900;
-  font-size: 40px;
+  font-size: 28px;
+}
+@media screen and (min-width: 768px) {
+  .eltticket .contenuticket .day5_ticket a .groupe_planning h3 {
+    font-size: 40px;
+  }
 }
 .eltticket .contenuticket .day5_ticket a .groupe_planning p {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 12px;
   margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .eltticket .contenuticket .day5_ticket a .groupe_planning p {
+    font-size: 16px;
+  }
 }
 .eltticket .VIP {
   display: flex;
@@ -739,14 +844,26 @@ footer .eltfooter .sponsorfooter img {
   margin: 15px;
 }
 .eltticket .VIP h3 {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   font-weight: 900;
-  font-size: 64px;
+  font-size: 58px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .eltticket .VIP h3 {
+    margin-bottom: 100px;
+    font-size: 64px;
+  }
 }
 .eltticket .VIP p {
   font-weight: 900;
-  font-size: 22px;
+  font-size: 18px;
   margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .eltticket .VIP p {
+    font-size: 22px;
+  }
 }
 
 .about {
@@ -766,21 +883,53 @@ footer .eltfooter .sponsorfooter img {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
+}
+@media screen and (min-width: 1024px) {
+  .about .photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
 }
 .about .photo .grp {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 50px;
+}
+@media screen and (min-width: 1024px) {
+  .about .photo .grp {
+    margin-bottom: 0px;
+  }
 }
 .about .photo .grp img {
   margin-bottom: 20px;
   width: 80%;
 }
+@media screen and (min-width: 768px) {
+  .about .photo .grp img {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .about .photo .grp img {
+    width: 80%;
+  }
+}
+.about .texte_p_about p {
+  margin: 30px;
+}
 .about .texte_p_about .texte_special {
-  font-size: 32px;
+  font-size: 28px;
   margin-top: 35px;
+}
+@media screen and (min-width: 768px) {
+  .about .texte_p_about .texte_special {
+    font-size: 32px;
+  }
 }
 
 .planning-page {
