@@ -193,7 +193,7 @@ footer .eltfooter .sponsorfooter img {
 .accueil {
   background-image: url(images/festival.png);
   background-size: cover;
-  width: 100%;
+  height: 100vh;
 }
 .accueil nav {
   position: fixed;
